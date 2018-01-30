@@ -22,4 +22,8 @@ class Front extends CI_Controller {
 	{
 		$this->load->view('company');
 	}
+    public function contact()
+	{
+		$this->load->view('contact');
+	}
 }
