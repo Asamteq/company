@@ -1,31 +1,4 @@
-<DOCTYPE HTML>
-<html>
-	<head>
-   	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    	<title>ASAM TEQ</title>
-        <link rel="stylesheet" href="<?php echo $this->config->item('base_url')?>assets/css/bootstrap.css" type="text/css">
-         <link rel="stylesheet" href="<?php echo $this->config->item('base_url')?>assets/css/style.css" type="text/css">
-         <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700" rel="stylesheet">
-        <script src="<?php echo $this->config->item('base_url')?>assets/js/jquery.js" type="text/JavaScript"></script>
-        <script src="<?php echo $this->config->item('base_url')?>assets/js/bootstrap.js" type="text/JavaScript"></script>
-    </head>
- <body>
- <div id="navigation-section">
- 	<div id="logo">
-    	
-    </div>
- 	<div id="menu">
-		<ul>
-        	<li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="#services-section">Services</a></li>
-            <li><a href="">Our Work</a></li>
-            <li><a href="">Carrer</a></li>
-            <li><a href="">Blog</a></li>
-            <li><a href="contact.php" class="btn btn-generic-style">Contact Us</a></li>
-        </ul>
-    </div>
- </div><!--eend of navigation section-->
+<?php $this->load->view('header');?>
  <div id="hero-image" class="parallex">
  	<div id="hero-text">
      	<h3>Welcome to Web Design & Development</h3>
@@ -93,23 +66,7 @@
                 </div>
             </div>
         </div><!--end of services section-->
-     <div id="footer-section">
-        <div class="container">
-            <div class="col-md-4 footer-information">
-               <h4>Contact Infromation</h4>
-                <strong><span class="glyphicon glyphicon-phone"> Phone:</span></strong><label> 923134445588</label><br>
-                <strong><span class="glyphicon glyphicon-envelope"> Email:</span></strong>&nbsp;<label> asamtech@gmail.com</label><br>
-                <strong><span class="glyphicon glyphicon-facetime-video"> Skype:</span></strong>&nbsp;<label> assamteq@skype.com</label>
-            </div>
-                <div class="col-md-8">
-                    <h4 class="address-heading-styling">Office:&nbsp;&nbsp;&nbsp;Pakistan Office 504 Liberty Tower</h4>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4189.5606058968815!2d74.31772515108666!3d31.469715586419827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391906a9efb63f51%3A0xfdeb76efa466feee!2sNew+Liberty+Tower!5e0!3m2!1sen!2s!4v1516892381035" width="760px" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div>
-         
-    
-         </div>
-     
-     </div>
+    <?php $this->load->view('footer')?>
  
  
  
