@@ -2,9 +2,9 @@
         <div class="container">
             <div class="col-md-4 footer-information">
                <h4>Contact Infromation</h4>
-                <strong><span class="glyphicon glyphicon-phone"> Phone:</span></strong><label> 923134445588</label><br>
-                <strong><span class="glyphicon glyphicon-envelope"> Email:</span></strong>&nbsp;<label> asamtech@gmail.com</label><br>
-                <strong><span class="glyphicon glyphicon-facetime-video"> Skype:</span></strong>&nbsp;<label> assamteq@skype.com</label>
+                <strong><span class="glyphicon glyphicon-phone"> Phone:</span></strong><label> +92308887054</label><br>
+                <strong><span class="glyphicon glyphicon-envelope"> Email:</span></strong>&nbsp;<label> info@asamteq.com</label><br>
+                <strong><span class="glyphicon glyphicon-facetime-video"> Skype:</span></strong>&nbsp;<label> shahgeb</label>
             </div>
                 <div class="col-md-8">
                     <h4 class="address-heading-styling">Office:&nbsp;&nbsp;&nbsp;Pakistan Office 504 Liberty Tower</h4>

@@ -23,8 +23,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/company/';
-
+if($_SERVER['HTTP_HOST'] =='localhost') {
+      $config['base_url'] = 'http://localhost/company/';
+}else{
+      $config['base_url'] = 'https://www.asamteq.com/';
+}
 /*
 |--------------------------------------------------------------------------
 | Index File
@@ -35,7 +38,7 @@ $config['base_url'] = 'http://localhost/company/';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = '';
+$config['index_page'] = 'index.php';
 
 /*
 |--------------------------------------------------------------------------
