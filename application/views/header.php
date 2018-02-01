@@ -8,6 +8,7 @@
          <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700" rel="stylesheet">
         <script src="<?php echo $this->config->item('base_url')?>assets/js/jquery.js" type="text/JavaScript"></script>
         <script src="<?php echo $this->config->item('base_url')?>assets/js/bootstrap.js" type="text/JavaScript"></script>
+        <link rel="icon" href="<?php echo $this->config->item('base_url')?>favicon.ico" type="image/gif">
     </head>
  <body>
  <div id="navigation-section">

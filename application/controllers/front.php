@@ -30,7 +30,7 @@ class Front extends CI_Controller {
             $data['email']= $_POST['email'];
             $data['phone']= $_POST['phone'];
             $data['message']= $_POST['message'];
-            $data['ip']= $data['date']= date('Y-m-d H:i:s');['ip'];
+            $data['ip']= $_SERVER['REMOTE_ADDR'];
             $data['date']= date('Y-m-d H:i:s');
             $this->load->model('company_model');
             $result = $this->company_model->save_record($data);
