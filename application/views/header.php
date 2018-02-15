@@ -5,6 +5,7 @@
     	<title>ASAM TEQ</title>
         <link rel="stylesheet" href="<?php echo $this->config->item('base_url')?>assets/css/bootstrap.css" type="text/css">
          <link rel="stylesheet" href="<?php echo $this->config->item('base_url')?>assets/css/style.css" type="text/css">
+         <link rel="stylesheet" href="<?php echo $this->config->item('base_url')?>assets/css/media.css" type="text/css">
          <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700" rel="stylesheet">
         <script src="<?php echo $this->config->item('base_url')?>assets/js/jquery.js" type="text/JavaScript"></script>
         <script src="<?php echo $this->config->item('base_url')?>assets/js/bootstrap.js" type="text/JavaScript"></script>
